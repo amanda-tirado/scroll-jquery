@@ -1,6 +1,8 @@
- /* OVERALL */
- @import '_reset', '_mixins';
+/* OVERALL */
+@import '_reset','_vars', '_mixins';
  /* HEADER */
  @import '_header';
  /* HEADER */
  @import '_main';
+  /* FOOTER */
+ @import '_footer';

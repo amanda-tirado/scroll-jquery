@@ -91,4 +91,8 @@ body{
         object-fit: filled;
         width: 100%;
     }
+    &__img.following.last{
+        height: calc(100vh - 167.4px);
+        min-height: calc(100vh - 167.4px);
+    }
 }
