@@ -20,7 +20,7 @@ Para crear este proyecto he usado:
 * [Porfolio web](http://www.amandatirado.com)
 
 ## Ver ejemplo en vivo 
-- [Ver Demo](http://www.amandatirado.com/practicas/scroll%20gallery/index.html)
+- [Ver Demo](https://amanda-tirado.github.io/scroll-jquery/)
 
 
 ## Contacto
