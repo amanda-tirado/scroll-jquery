@@ -90,7 +90,6 @@ blockquote:before, blockquote:after, q:before, q:after {
 form, input, textarea, select, button, label {
   font-family: inherit;
   font-size: inherit;
-  -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
   background-color: transparent;
@@ -124,7 +123,6 @@ body {
   /* opcional */
   line-height: 1.4em;
   /* opcional */
-  -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
   /* opcional */
@@ -201,8 +199,8 @@ body {
   width: 80%;
   background-color: #eee;
   -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1px solid #0000;
-          order: 1px solid #0000;
+      -ms-flex-order: 1px solid rgba(0, 0, 0, 0);
+          order: 1px solid rgba(0, 0, 0, 0);
   border-radius: 1.5rem;
   padding: 0.5rem 1rem;
   display: -webkit-box;

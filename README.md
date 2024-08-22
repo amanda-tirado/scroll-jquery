@@ -1,13 +1,14 @@
 ## Descripción 🏝
 
-Pequeño proyecto para el módulo de Desarrollo Web en Trazos. He realizado un sitio web con un diseño inspirado en la página web 'Unsplash' y un desarrollo con Javascript que te señala a través de una barra la carga de scroll que haces a medida que vas bajando por la página.
+Pequeño proyecto para el módulo de Desarrollo Web en Trazos. Diseño inspirado en la página web 'Unsplash' para el desarrollo con Javascript del desplazamiento controlado a través del scroll. Implementa un mecanismo de "scroll suave" que cambia de pantalla en función del movimiento del ratón, y evita desplazamientos rápidos con un temporizador. También ajusta una barra de progreso en función del porcentaje de desplazamiento vertical de la página.
 
 ## Tecnologías ✒️
 Para crear este proyecto he usado:
 * HTML
 * CSS
-* SASS
+* SCSS
 * Javascript
+* jQuery
 * Metodología BEM
 * Metodología SUITCSS
 

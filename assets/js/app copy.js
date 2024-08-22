@@ -1,9 +1,9 @@
 'use strict'
 
-let enableWhell = true;
-// enablewheel me permite activar su función cada x tiempo para poder hacer scroll con wl weel del ratón mucho en una única vez.
+let enableWhell = true; //permite activar su función cada x tiempo para poder hacer scroll con wl weel del ratón mucho en una única vez.
 // Necesito un contador de pantallas para que cuando haga scroll con el ratón y me pase del maximo/mínimo de pantallas no tenga que volver a rehacer ese scroll para empezar desde donde empecé
 let pantallas = 0;
+
 $(window).on({
     wheel:function( evento ){
         // establezco una condición para que solo se pueda hacer wheel una vez cada 100 ms
