@@ -24,4 +24,4 @@ Para crear este proyecto he usado:
 
 
 ## Contacto
-Si quieres contactarme puedes escribirme a amandatiradoanula@gmail.com para consultas.
+Si quieres contactar conmigo puedes escribirme a amandatiradoanula@gmail.com para consultas.
