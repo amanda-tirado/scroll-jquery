@@ -1,0 +1,94 @@
+@import '_mixins';
+body{
+    overflow: hidden;
+}
+.main{
+    // position: relative;
+    &__page{
+        min-height: 100vh;
+    }
+    &__wrapper{
+        min-height: 10vh;
+        // padding: 1rem 1rem 3rem;
+        width: 100%;
+        margin: auto;
+        background-color: white;
+        @include flexible (row, nowrap, space-around, center);
+    }
+    &__logo{
+        width: 10%;
+    }
+    &__svg{
+        max-width: 2.6rem;
+    }
+    &__svg.search{
+        width: 1.4rem;
+        fill: #767676;
+    }
+    &__nav{
+        width: 90%;
+        // background-color: hotpink;
+        padding: 1rem;
+        @include flexible (row, nowrap, space-between, center);
+    }
+    &__input{
+        width: 100%;
+    }
+    &__search-menu{
+        width: 80%;
+        background-color: #eee;
+        order: 1px solid #0000;
+        border-radius: 1.5rem;
+        padding: .5rem 1rem;
+        @include flexible (row, nowrap, space-between, center);
+    }
+    &__search-btn{
+        margin-right: 1rem;
+    }
+    &__div-scroll{
+        width: 100%;
+        background-color: #1cf28c;
+        height: .8rem;
+        position: fixed;
+        z-index: 2;
+    }
+    &__img{
+        height: 90vh;
+        object-fit: filled;
+        width: 100%;
+    }
+    &__main__box{
+        position: relative;
+        // display: block;
+    }
+    &__box:hover .main__hover{
+        position: absolute;
+        background-color: #212121;
+        opacity: 90%;
+        top: 10%;
+        left: 0;
+        width: 100%;
+        min-height: 90vh;
+        @include flexible (column, nowrap, center, center);
+    
+    }
+    &__hover{
+        display: none;
+    }
+    &__view{
+        color: #212121;
+        padding: 1rem 2rem;
+        border: solid 2px black;
+        border-radius: 24px;
+        background-color: whitesmoke;
+        font-size: 1.4rem;
+    }
+    &__view:hover{
+        transform: scale(1.2);
+    }
+    &__img.following{
+        min-height: 100vh;
+        object-fit: filled;
+        width: 100%;
+    }
+}
